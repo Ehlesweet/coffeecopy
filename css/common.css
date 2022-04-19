@@ -292,3 +292,49 @@ footer .copyright{
 footer .logo{
   margin: 30px auto 0;
 }
+
+
+/*button*/
+.btn.btn--reverse{
+  background-color: #333;
+  color: #fff;
+}
+.btn.btn--reverse:hover{
+  background-color: transparent;
+  color: #333;
+}
+.btn.btn--brown{
+  color: #592b18;
+  border-color: #592b18;
+}
+.btn.btn--brown:hover{
+  color: #fff;
+  border-color: #592b18;
+}
+.btn.btn--gold{
+  border-color: #d9aa8a;
+  color: #d9aa8a;
+}
+.btn.btn--gold:hover{
+  color: #fff;
+  background-color: #d9aa8a;
+}
+.btn.btn--white{
+  color: #fff;
+  border-color: #fff;
+}
+.btn.btn--white:hover{
+  color: #333;
+  background-color: #fff;
+}
+.btn.btn--primary{
+  color: #fff;
+  background-color: #ea9926;
+  border: none;
+}
+.btn.btn--primary:hover{
+  background-color: #cc8823;
+}
+.btn.block{
+  width: 100%;
+}
